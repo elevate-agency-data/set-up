@@ -2,7 +2,7 @@
 
 Repository dedicated for setting up the basic tools needed at Elevate.
 
-You'll find below the instructions to set-up your computer such as VScode, Terminal, zsh, Docker and other utilities.
+You'll find below the instructions to set-up your computer VScode, Terminal, zsh, Docker and other utilities.
 
 Please feel free to contribute ✨
 
