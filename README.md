@@ -63,8 +63,6 @@ Open Windows Update:
 
 :warning: If you have a red exclamation mark and the message "Update available", please install them and repeat the process until it says that you are up to date :loop:
 
-:x: If you have an error message about Windows not being able to apply updates, please **contact a consultant**.
-
 <details>
   <summary>Activate Windows Update Service to fix Updates</summary>
 
@@ -91,8 +89,6 @@ Check the **Version number**:
 
 :heavy_check_mark: If it says at least `1903`, you are good to go :+1:
 
-:x: If it is below `1903`, please **contact a consultant**.
-
 
 ## Virtualization
 
@@ -108,8 +104,6 @@ For many computers, this is already the case. Let's check:
 ![Windows task manager](https://github.com/lewagon/setup/blob/master/images/windows_task_manager.png)
 
 :heavy_check_mark: If you see "Virtualization: Enabled", you're good to go :+1:
-
-:x: If the line is missing or if the virtualization is disabled, please **contact a consultant before trying to activate the Virtualization**
 
 <details>
   <summary>Activate Virtualization</summary>
@@ -161,8 +155,6 @@ wsl --install
 
 :heavy_check_mark: If the command ran without any error, please restart your computer and continue below :+1:
 
-:x: If you encounter an error message (or if you see some text in red in the window), please **contact a consultant**
-
 ### Windows 10
 
 #### Install WSL 1
@@ -195,8 +187,6 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 
 :heavy_check_mark: If all three commands ran without any error, please restart your computer and continue below :+1:
-
-:x: If you encounter an error message (or if you see some text in red in the window), please **contact a consultant**
 
 #### Upgrade to WSL 2
 
@@ -232,8 +222,6 @@ wsl --set-default-version 2
 ```
 
 :heavy_check_mark: If you see "The operation completed successfully", you can close this terminal and continue to follow the instructions below :+1:
-
-:x: If the message you get is about Virtualization, please **contact a consultant**
 
 <details>
   <summary>Enable Virtual Machine Platform Windows feature</summary>
@@ -345,7 +333,6 @@ wsl -l -v
 
   Apply changes to this folder only and try to convert the Ubuntu WSL version again.
 
-  :x: If the conversion still does not work, please **contact a consultant**.
 </details>
 
 You can now close this terminal window.
@@ -387,8 +374,6 @@ code .
 :heavy_check_mark: If you see `WSL: Ubuntu` in a green box in the bottom left corner of the VS Code window, you're good to go :+1:
 
 ![WSL Ubuntu Remote](https://github.com/lewagon/setup/blob/master/images/windows_remote_wsl.png)
-
-:x: Otherwise, please **contact a consultant**
 
 
 ## Windows Terminal
@@ -545,8 +530,6 @@ gh --version
 
 :heavy_check_mark: If you see `gh version X.Y.Z (YYYY-MM-DD)`, you're good to go :+1:
 
-:x: Otherwise, please **contact a consultant**
-
 
 ## Oh-my-zsh
 
@@ -565,8 +548,6 @@ At the end your terminal should look like this:
 ![Ubuntu terminal with OhMyZsh](https://github.com/lewagon/setup/blob/master/images/oh_my_zsh.png)
 
 :heavy_check_mark: If it does, you can continue :+1:
-
-:x: Otherwise, please **ask for a consultant**
 
 
 ## Linking your default browser to Ubuntu
@@ -647,9 +628,6 @@ If it does not,
 exec zsh
 ```
 
-Do not hesitate to **contact a consultant**.
-
-
 ## direnv
 
 [direnv](https://direnv.net/) is a shell extension. It makes it easy to deal with per project environment variables. This will be useful in order to customize the behavior of your code.
@@ -708,8 +686,6 @@ gh auth status
 ```
 
 :heavy_check_mark: If you get `Logged in to github.com as <YOUR USERNAME> `, then all good :+1:
-
-:x: If not, **contact a consultant**.
 
 
 ## Google Cloud CLI
